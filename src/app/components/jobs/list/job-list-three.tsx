@@ -59,7 +59,7 @@ const JobListThree = ({
       localStorage.getItem("bannerParams") || "{}"
     );
     const bannerParamsCount = JSON.parse(
-      localStorage.getItem("bannerParamsCount") || ""
+      localStorage.getItem("bannerParamsCount") || "0"
     );
 
     if (bannerParams.hasOwnProperty("title")) {
