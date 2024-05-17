@@ -12,6 +12,9 @@ const ContactArea = () => {
         <div className="border-bottom pb-150 lg-pb-80">
           <div className="title-one text-center mb-70 lg-mb-40">
             <h2>Get in touch</h2>
+            <h3>
+              Full business name : JustHired by Metageeks Technologies Pvt Ltd.
+            </h3>
           </div>
           <div className="row">
             <div className="col-xl-10 m-auto">
@@ -23,8 +26,8 @@ const ContactArea = () => {
                     </div>
                     <h5 className="title">Our Address</h5>
                     <p>
-                      Bass Hill Plaza Medical Centre <br />
-                      Sydney, Australia
+                      Metageeks Technologies Pvt Ltd., 55, 2nd Lane, Westend{" "}
+                      Marg, Saidullajab, Saket, New Delhi - 110030
                     </p>
                   </div>
                 </div>
@@ -36,9 +39,7 @@ const ContactArea = () => {
                     <h5 className="title">Contact Info</h5>
                     <p>
                       Open a chat or give us call at <br />
-                      <a href="tel:310.841.5500" className="call">
-                        310.841.5500
-                      </a>
+                      <a>+918860382254</a>
                     </p>
                   </div>
                 </div>
@@ -47,12 +48,10 @@ const ContactArea = () => {
                     <div className="icon rounded-circle d-flex align-items-center justify-content-center m-auto">
                       <Image src={icon_3} alt="icon" />
                     </div>
-                    <h5 className="title">Live Support</h5>
+                    <h5 className="title">Email Support</h5>
                     <p>
-                      live chat service <br />
-                      <a href="#" className="webaddress">
-                        www.CyberLevels.com
-                      </a>
+                      Raise your concern at
+                      <a>support@justhired.xyz</a>
                     </p>
                   </div>
                 </div>
