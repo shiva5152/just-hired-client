@@ -77,9 +77,11 @@ export function WidgetThree({
         <li>
           <Link href="/privacy-policy">Privacy Policy</Link>
         </li>
-        {/* <li>
-          <Link href="/privacy-policy">Cookie policy</Link>
-        </li> */}
+        <li>
+          <Link href="/refund-and-cancellations">
+            Refund And Cancellations Policy
+          </Link>
+        </li>
       </ul>
     </div>
   );
