@@ -35,7 +35,7 @@ const TextEditor = ({
     <div>
       <Editor
         onEditorChange={handleEditorChange}
-        apiKey="5ck4fbg67tr2aopfaf7zp04pl5d1z2xfvv15qu0uunww5ss5"
+        apiKey={process.env.NEXT_PUBLIC_TINY_EDITOR_KEY}
         initialValue={dynamicContent} // Use the initial value prop to set the initial content
       />
       {/* <div
