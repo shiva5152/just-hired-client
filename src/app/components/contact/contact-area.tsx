@@ -39,7 +39,7 @@ const ContactArea = () => {
                     <h5 className="title">Contact Info</h5>
                     <p>
                       Open a chat or give us call at <br />
-                      <a>+918860382254</a>
+                      <a href="tel:+918860382254">+918860382254</a>
                     </p>
                   </div>
                 </div>
@@ -51,7 +51,9 @@ const ContactArea = () => {
                     <h5 className="title">Email Support</h5>
                     <p>
                       Raise your concern at
-                      <a>support@justhired.xyz</a>
+                      <a href="mailto:support@justhired.xyz">
+                        support@justhired.xyz
+                      </a>
                     </p>
                   </div>
                 </div>
