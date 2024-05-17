@@ -68,18 +68,18 @@ export function WidgetThree({
     <div className={`${cls} mb-20`}>
       <h5 className={`footer-title ${style_2 ? "text-white" : ""}`}>Support</h5>
       <ul className="footer-nav-link style-none">
-        <li>
+        {/* <li>
           <Link href="/privacy-policy">Terms of use</Link>
+        </li> */}
+        <li>
+          <Link href="/terms-and-conditions">Terms & conditions</Link>
         </li>
         <li>
-          <Link href="/privacy-policy">Terms & conditions</Link>
+          <Link href="/privacy-policy">Privacy Policy</Link>
         </li>
-        <li>
-          <Link href="/privacy-policy">Privacy</Link>
-        </li>
-        <li>
+        {/* <li>
           <Link href="/privacy-policy">Cookie policy</Link>
-        </li>
+        </li> */}
       </ul>
     </div>
   );

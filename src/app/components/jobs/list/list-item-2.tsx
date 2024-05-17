@@ -128,7 +128,7 @@ const ListItemTwo = ({ item }: { item: IJobPost }) => {
             <div className="col-md-3 col-sm-6">
               <div className="btn-group d-flex align-items-center justify-content-sm-end xs-mt-20">
                 {userRole === "candidate" &&
-                currCandidate?.subscription.offering.isSaveApplicable ===
+                currCandidate?.subscription?.offering?.isSaveApplicable ===
                   true ? (
                   <button
                     type="button"
